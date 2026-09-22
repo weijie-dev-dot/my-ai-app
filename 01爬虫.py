@@ -1,0 +1,4 @@
+import requests
+target_url="https://www.tiobe.com/tiobe-index/"
+response=requests.get(target_url)
+print(response.text)
